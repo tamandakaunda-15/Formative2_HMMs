@@ -14,16 +14,16 @@ The repository contains the final deliverables required for the assignment:
 
 | Task | Description | Status |
 | :--- | :--- | :--- |
-| **1. Data Collection** | Collect $\mathbf{51 \text{ samples}}$ of four activities using the Sensor Logger app. | ✅ **Complete** |
-| **2. Feature Extraction** | Compute 22 Time-Domain and Frequency-Domain features per sample. | ✅ **Complete** |
-| **3. Model Definition** | Define HMM structure (4 States, 22 Observations). | ✅ **Complete** |
-| **4. Implementation** | Train HMM using **Baum–Welch** and decode using **Viterbi**. | 🚧 **In Progress** |
-| **5. Evaluation** | Test model on unseen data and report metrics (Accuracy, Sensitivity, Specificity). | 🚧 **In Progress** |
+| **1. Data Collection** | Collect $\mathbf{51 \text{ samples}}$ of four activities using the Sensor Logger app. |  **Complete** |
+| **2. Feature Extraction** | Compute 22 Time-Domain and Frequency-Domain features per sample. |  **Complete** |
+| **3. Model Definition** | Define HMM structure (4 States, 22 Observations). |  **Complete** |
+| **4. Implementation** | Train HMM using **Baum–Welch** and decode using **Viterbi**. |  **Complete** |
+| **5. Evaluation** | Test model on unseen data and report metrics (Accuracy, Sensitivity, Specificity). |  **Complete** |
 
 ### Deliverables:
 
 1.  **`/dataset/`**: Directory containing the $\mathbf{51}$ cleaned, labeled samples (folders of calibrated Accelerometer and Gyroscope CSVs).
-2.  **`HMM_Activity_Recognition.ipynb`**: The main Python notebook containing the full implementation of Tasks 2-5, including feature extraction, HMM training, evaluation, and visualizations.
+2.  **` HMM_Formative2.ipynb`**: The main Python notebook containing the full implementation of Tasks 2-5, including feature extraction, HMM training, evaluation, and visualizations.
 3.  **`Report.pdf`**: The final project report (4-5 pages) detailing methodology, results, and discussion.
 
 ---
