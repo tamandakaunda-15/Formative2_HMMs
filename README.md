@@ -54,7 +54,16 @@ Each 10-second sample (window) was converted into a $\mathbf{22 \text{-dimension
 All 22 features were standardized using **Z-score normalization** before model training.
 
 ## 5. HMM Structure
-##. Set Up and Execution
+###. Set Up and Execution
+The Hidden Markov Model (HMM) was chosen because of its ability to represent sequential patterns and hidden states that evolve over time, which fits well with human activity transitions. Our implementation used the Gaussian HMM from the hmmlearn library.
+
+Model Configuration
+
+- Hidden states (n_components): 4, corresponding to the four activities — Walking, Jumping, Standing, and Still
+- Covariance type: diag — assumes each feature is conditionally independent given the state, making computation faster
+- Number of features: 22, as extracted in the preprocessing stage
+- Training algorithm: Baum–Welch Expectation–Maximization (EM) algorithm for parameter estimation
+- Decoding algorithm: Viterbi — used to determine the most likely sequence of activities for each observation window
 
 ## 6. Model Evaluation
 The trained Hidden Markov Model was evaluated on unseen data to test its ability to recognize different activities.
