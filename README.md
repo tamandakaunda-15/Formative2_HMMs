@@ -55,6 +55,18 @@ All 22 features were standardized using **Z-score normalization** before model t
 
 ## 5. HMM Structure
 ##. Set Up and Execution
+
+## 6. Model Evaluation
+The trained Hidden Markov Model was evaluated on unseen data to test its ability to recognize different activities.
+
+Key Performance Metrics:
+- Overall Accuracy: 60%
+- Macro F1 Score: 0.50
+- Best Performance: Still (F1 = 1.00) and Standing (F1 = 0.60)
+- Lowest Performance: Walking (F1 = 0.00)
+
+The model showed strong recognition of static activities but struggled with dynamic ones like walking, likely due to overlapping motion patterns.
+
 ### Prerequisites
  * Python 3.8
  * Required libraries: `pandas, scipy, scikit-learn, matplotlib, seaborn,  **hmmlearn** `
