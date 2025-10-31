@@ -66,7 +66,7 @@ Model Configuration
 - Decoding algorithm: Viterbi — used to determine the most likely sequence of activities for each observation window
 
 ## 6. Model Evaluation
-The trained Hidden Markov Model was evaluated on unseen data to test its ability to recognize different activities.
+The model’s performance was tested on unseen activity samples that were collected separately and processed through the same feature extraction pipeline. The results are summarized below.
 
 Key Performance Metrics:
 - Overall Accuracy: 60%
@@ -75,6 +75,8 @@ Key Performance Metrics:
 - Lowest Performance: Walking (F1 = 0.00)
 
 The model showed strong recognition of static activities but struggled with dynamic ones like walking, likely due to overlapping motion patterns.
+
+<img width="1188" height="441" alt="Screenshot 2025-10-31 230722" src="https://github.com/user-attachments/assets/bfde93b5-e00a-4bcb-9e78-b4dc6f194481" />
 
 ### Prerequisites
  * Python 3.8
