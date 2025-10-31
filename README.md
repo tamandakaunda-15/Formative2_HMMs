@@ -26,15 +26,24 @@ The repository contains the final deliverables required for the assignment:
 2.  **` HMM_Formative2.ipynb`**: The main Python notebook containing the full implementation of Tasks 2-5, including feature extraction, HMM training, evaluation, and visualizations.
 3.  **`Report.pdf`**: The final project report (4-5 pages) detailing methodology, results, and discussion.
 
----
+### Task Allocation and Contribution 
+The project's tasks were divided equally, ensuring a balanced contribution.
+| Project Task | Member Contribution | Contribtuion focus|
+| :---  | :---  | :--- 
+
+| **Task 1** | **Both** | Data Collection (51 Samples) & Rate Harmonization |
+| **Task 2** | **Tamanda** | Feature Extraction (22 Features) & Normalization |
+| **Task 3** | **Tamanda** | HMM Model Definition (States, Observations, Structure) |
+| **Task 4** | **Benitha** | HMM Implementation (Baum–Welch & Viterbi Algorithms) |
+| **Task 5** | **Benitha** | Model Evaluation (Testing on Unseen Data & Metrics) |
+| **Task 6** | **Both** | Analysis, Discussion, and Report Writing |
+
 
 ## 3. Data Collection Summary (Task 1)
 
 The training data consists of 51 samples, each 10 seconds in duration, recorded at a **harmonized sampling rate of 100 Hz**.
 
-| Activity | Number of Samples | Total Duration (Minimum Required: 90s) |
-| :--- | :--- | :--- |
-| **Walking** | 16 | 160 seconds |
+c | 16 | 160 seconds |
 | **Standing** | 12 | 120 seconds |
 | **Still** | 12 | 120 seconds |
 | **Jumping** | 11 | 110 seconds |
