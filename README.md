@@ -14,12 +14,12 @@ The repository contains the final deliverables required for the assignment:
 
 | Project Task | Member Responsible | Contribution Focus |
 | :--- | :--- | :--- |
-| **Task 1** | **Both** | Data Collection (51 Samples) & Rate Harmonization |
-| **Task 2** | **You** | Feature Extraction (22 Features) & Normalization |
-| **Task 3** | **You** | HMM Model Definition (States, Observations, Structure) |
-| **Task 4** | **Benitha** | HMM Implementation (Baum–Welch & Viterbi Algorithms) |
-| **Task 5** | **Benitha** | Model Evaluation (Testing on Unseen Data & Metrics) |
-| **Task 6** | **Both** | Analysis, Discussion, and Report Writing |
+| **Task 1** | Both (Tamanda & Benitha) | Data Collection (51 Samples) & Rate Harmonization |
+| **Task 2** | Tamanda | Feature Extraction (22 Features) & Normalization |
+| **Task 3** | Tamanda | HMM Model Definition (States, Observations, Structure) |
+| **Task 4** | Benitha | HMM Implementation (Baum–Welch & Viterbi Algorithms) |
+| **Task 5** | Benitha | Model Evaluation (Testing on Unseen Data & Metrics) |
+| **Task 6** | Both (Tamanda & Benitha) | Analysis, Discussion, and Report Writing |
 
 ### Deliverables:
 
