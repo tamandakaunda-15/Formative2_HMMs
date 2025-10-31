@@ -64,6 +64,10 @@ Model Configuration
 - Number of features: 22, as extracted in the preprocessing stage
 - Training algorithm: Baum–Welch Expectation–Maximization (EM) algorithm for parameter estimation
 - Decoding algorithm: Viterbi — used to determine the most likely sequence of activities for each observation window
+  
+<img width="1175" height="370" alt="Screenshot 2025-10-31 221652" src="https://github.com/user-attachments/assets/82ae47e7-e252-40bc-83f0-5a760ed62b93" />
+
+<img width="1184" height="352" alt="Screenshot 2025-10-31 221703" src="https://github.com/user-attachments/assets/99404eba-16f7-4489-900b-df3df4ff11ae" />
 
 ## 6. Model Evaluation
 The model’s performance was tested on unseen activity samples that were collected separately and processed through the same feature extraction pipeline. The results are summarized below.
