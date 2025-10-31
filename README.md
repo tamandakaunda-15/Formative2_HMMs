@@ -53,7 +53,7 @@ Each 10-second sample (window) was converted into a $\mathbf{22 \text{-dimension
 
 All 22 features were standardized using **Z-score normalization** before model training.
 
-## 5. HMM Structure
+## 5. HMM Structure (Task 3)
 ###. Set Up and Execution
 The Hidden Markov Model (HMM) was chosen because of its ability to represent sequential patterns and hidden states that evolve over time, which fits well with human activity transitions. Our implementation used the Gaussian HMM from the hmmlearn library.
 
@@ -69,7 +69,8 @@ Model Configuration
 
 <img width="1184" height="352" alt="Screenshot 2025-10-31 221703" src="https://github.com/user-attachments/assets/99404eba-16f7-4489-900b-df3df4ff11ae" />
 
-## 6. Model Evaluation
+## 6. Model Evaluation (Task 5)
+
 The model’s performance was tested on unseen activity samples that were collected separately and processed through the same feature extraction pipeline. The results are summarized below.
 
 Key Performance Metrics:
@@ -82,6 +83,7 @@ The model showed strong recognition of static activities but struggled with dyna
 
 <img width="1188" height="441" alt="Screenshot 2025-10-31 230722" src="https://github.com/user-attachments/assets/bfde93b5-e00a-4bcb-9e78-b4dc6f194481" />
 
+
 ### Prerequisites
  * Python 3.8
  * Required libraries: `pandas, scipy, scikit-learn, matplotlib, seaborn,  **hmmlearn** `
@@ -89,6 +91,5 @@ The model showed strong recognition of static activities but struggled with dyna
 ## Running the Notebook
 1. Clone this repository
 2. Open the `Hidden_Markov_Model.ipynb`  in Google Colab or your preferred environment.
-3. Confire the `DRIVE_PATH` variable in the notebook to redirect to the location of the dataset.
+3. Configure the `DRIVE_PATH` variable in the notebook to redirect to the location of the dataset.
 4. Execute all the cells sequentially to reproduce the HMM training, evaluation, and visualizations.
- 
